@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durga | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">Durga<span>.</span></a>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small">
+      <div class="container">
+        <h1>About Me</h1>
+        <p>Passionate about crafting beautiful, user-centric web apps.</p>
+      </div>
+    </section>
+
+    <section class="about-content">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="assets/profile-placeholder.svg" alt="Durga profile" />
+        </div>
+        <div class="about-text">
+          <h2>I'm Durga, a Front-End Developer</h2>
+          <p>
+            I specialize in building responsive, accessible, and performant web interfaces.
+            With a strong eye for design and a love for clean code, I turn ideas into
+            engaging digital products. I collaborate closely with teams and stakeholders
+            to deliver outcomes that delight users and drive business value.
+          </p>
+          <ul class="about-highlights">
+            <li>Modern stacks: HTML, CSS, JavaScript, React</li>
+            <li>Accessibility-first and mobile-first mindset</li>
+            <li>Performance optimization and best practices</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Work With Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-stats">
+      <div class="container">
+        <div class="skill-metrics">
+          <div class="metric">
+            <span class="metric-number" data-target="5">0</span>
+            <span class="metric-label">Years Experience</span>
+          </div>
+          <div class="metric">
+            <span class="metric-number" data-target="40">0</span>
+            <span class="metric-label">Projects Delivered</span>
+          </div>
+          <div class="metric">
+            <span class="metric-number" data-target="20">0</span>
+            <span class="metric-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Durga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durga | Skills</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">Durga<span>.</span></a>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html" class="active">Skills</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small">
+      <div class="container">
+        <h1>Skills</h1>
+        <p>Tools and technologies I use to craft web experiences.</p>
+      </div>
+    </section>
+
+    <section class="skills-content">
+      <div class="container">
+        <div class="skills-tabs" role="tablist" aria-label="Skill categories">
+          <button class="tab-button active" role="tab" aria-selected="true" aria-controls="panel-frontend" id="tab-frontend">Front-end</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-tools" id="tab-tools">Tools</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-soft" id="tab-soft">Soft skills</button>
+        </div>
+
+        <div class="tab-panel show" id="panel-frontend" role="tabpanel" aria-labelledby="tab-frontend">
+          <div class="skills-grid rich">
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>HTML5</h3>
+                <span class="badge">Expert</span>
+              </div>
+              <p class="skill-desc">Semantic, accessible markup and SEO-friendly structure.</p>
+              <ul class="tags">
+                <li>ARIA</li><li>SEO</li><li>Semantics</li>
+              </ul>
+              <div class="progress" data-progress="95"><span></span></div>
+            </div>
+
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>CSS3</h3>
+                <span class="badge">Advanced</span>
+              </div>
+              <p class="skill-desc">Responsive layouts with Grid/Flexbox and modern theming.</p>
+              <ul class="tags">
+                <li>Grid</li><li>Flexbox</li><li>Animations</li>
+              </ul>
+              <div class="progress" data-progress="90"><span></span></div>
+            </div>
+
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>JavaScript</h3>
+                <span class="badge">Advanced</span>
+              </div>
+              <p class="skill-desc">Modern ES features, modular code, and performance.</p>
+              <ul class="tags">
+                <li>ES6+</li><li>Modules</li><li>Performance</li>
+              </ul>
+              <div class="progress" data-progress="85"><span></span></div>
+            </div>
+
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>React</h3>
+                <span class="badge">Proficient</span>
+              </div>
+              <p class="skill-desc">Component-driven UIs with hooks and state management.</p>
+              <ul class="tags">
+                <li>Hooks</li><li>SPA</li><li>State</li>
+              </ul>
+              <div class="progress" data-progress="80"><span></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" hidden>
+          <div class="skills-grid rich">
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>Git & GitHub</h3>
+                <span class="badge">Advanced</span>
+              </div>
+              <p class="skill-desc">Feature branches, PR reviews, and clean commit history.</p>
+              <ul class="tags">
+                <li>PRs</li><li>Rebase</li><li>Code Review</li>
+              </ul>
+              <div class="progress" data-progress="88"><span></span></div>
+            </div>
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>Webpack/Vite</h3>
+                <span class="badge">Proficient</span>
+              </div>
+              <p class="skill-desc">Fast dev builds and optimized production bundles.</p>
+              <ul class="tags">
+                <li>HMR</li><li>Code Split</li><li>Minify</li>
+              </ul>
+              <div class="progress" data-progress="82"><span></span></div>
+            </div>
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>Testing</h3>
+                <span class="badge">Proficient</span>
+              </div>
+              <p class="skill-desc">Unit and integration tests for critical flows.</p>
+              <ul class="tags">
+                <li>Jest</li><li>RTL</li><li>MSW</li>
+              </ul>
+              <div class="progress" data-progress="75"><span></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-soft" role="tabpanel" aria-labelledby="tab-soft" hidden>
+          <div class="skills-grid rich">
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>Communication</h3>
+                <span class="badge">Strong</span>
+              </div>
+              <p class="skill-desc">Clear, concise updates and collaborative approach.</p>
+              <ul class="tags">
+                <li>Docs</li><li>Stakeholders</li><li>Teamwork</li>
+              </ul>
+              <div class="progress" data-progress="90"><span></span></div>
+            </div>
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>Problem Solving</h3>
+                <span class="badge">Strong</span>
+              </div>
+              <p class="skill-desc">Breaking down complexity and delivering pragmatic solutions.</p>
+              <ul class="tags">
+                <li>Analysis</li><li>Debugging</li><li>Ownership</li>
+              </ul>
+              <div class="progress" data-progress="92"><span></span></div>
+            </div>
+            <div class="skill-card rich-card">
+              <div class="skill-head">
+                <h3>Leadership</h3>
+                <span class="badge">Growing</span>
+              </div>
+              <p class="skill-desc">Mentoring and driving initiatives to completion.</p>
+              <ul class="tags">
+                <li>Mentorship</li><li>Planning</li><li>Quality</li>
+              </ul>
+              <div class="progress" data-progress="78"><span></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-metrics">
+          <div class="metric">
+            <span class="metric-number" data-target="5">0</span>
+            <span class="metric-label">Years Experience</span>
+          </div>
+          <div class="metric">
+            <span class="metric-number" data-target="40">0</span>
+            <span class="metric-label">Projects</span>
+          </div>
+          <div class="metric">
+            <span class="metric-number" data-target="20">0</span>
+            <span class="metric-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Durga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

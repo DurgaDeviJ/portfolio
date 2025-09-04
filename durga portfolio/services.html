@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durga | Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">Durga<span>.</span></a>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small">
+      <div class="container">
+        <h1>Services</h1>
+        <p>What I can do for your product and business.</p>
+      </div>
+    </section>
+
+    <section class="services-content">
+      <div class="container">
+        <div class="skills-tabs" role="tablist" aria-label="Service categories">
+          <button class="tab-button active" role="tab" aria-selected="true" aria-controls="panel-web" id="tab-web">Web</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-design" id="tab-design">Design</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-perf" id="tab-perf">Performance</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-consult" id="tab-consult">Consulting</button>
+        </div>
+
+        <div class="tab-panel show" id="panel-web" role="tabpanel" aria-labelledby="tab-web">
+          <div class="service-grid rich">
+            <div class="service-card">
+              <div class="service-icon">🖥️</div>
+              <div class="skill-head"><h3>Web Development</h3><span class="badge">Core</span></div>
+              <p>Responsive, accessible sites with clean, maintainable code.</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>JS</li></ul>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">⚛️</div>
+              <div class="skill-head"><h3>SPA Development</h3><span class="badge">Pro</span></div>
+              <p>Building reactive UIs with modern frameworks and tooling.</p>
+              <ul class="tags"><li>React</li><li>Routing</li><li>State</li></ul>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🔐</div>
+              <div class="skill-head"><h3>Best Practices</h3><span class="badge">QA</span></div>
+              <p>Testing, code review, and healthy CI to ensure quality.</p>
+              <ul class="tags"><li>Testing</li><li>CI</li><li>Git</li></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-design" role="tabpanel" aria-labelledby="tab-design" hidden>
+          <div class="service-grid rich">
+            <div class="service-card">
+              <div class="service-icon">🎨</div>
+              <div class="skill-head"><h3>UI Implementation</h3><span class="badge">Pixel‑perfect</span></div>
+              <p>Translating Figma into live, responsive, and accessible UI.</p>
+              <ul class="tags"><li>Figma</li><li>Grid</li><li>Animation</li></ul>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🧭</div>
+              <div class="skill-head"><h3>UX Enhancements</h3><span class="badge">CX</span></div>
+              <p>Micro-interactions and flows that guide users to success.</p>
+              <ul class="tags"><li>Motion</li><li>IA</li><li>A11y</li></ul>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🧩</div>
+              <div class="skill-head"><h3>Design Systems</h3><span class="badge">Scale</span></div>
+              <p>Reusable components and tokens for consistency and speed.</p>
+              <ul class="tags"><li>Components</li><li>Tokens</li><li>Docs</li></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-perf" role="tabpanel" aria-labelledby="tab-perf" hidden>
+          <div class="service-grid rich">
+            <div class="service-card">
+              <div class="service-icon">⚙️</div>
+              <div class="skill-head"><h3>Performance Audit</h3><span class="badge">LCP</span></div>
+              <p>Diagnose bottlenecks and deliver a prioritized action plan.</p>
+              <ul class="tags"><li>Lighthouse</li><li>CWV</li><li>Bundle</li></ul>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">⚡</div>
+              <div class="skill-head"><h3>Optimization</h3><span class="badge">Speed</span></div>
+              <p>Code-splitting, lazy loading, and asset optimization.</p>
+              <ul class="tags"><li>Code Split</li><li>Lazy</li><li>Cache</li></ul>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🔍</div>
+              <div class="skill-head"><h3>Accessibility</h3><span class="badge">WCAG</span></div>
+              <p>Inclusive experiences that meet accessibility standards.</p>
+              <ul class="tags"><li>ARIA</li><li>Contrast</li><li>Keyboard</li></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-consult" role="tabpanel" aria-labelledby="tab-consult" hidden>
+          <div class="service-grid rich">
+            <div class="service-card">
+              <div class="service-icon">🧠</div>
+              <div class="skill-head"><h3>Front-end Consulting</h3><span class="badge">Advisor</span></div>
+              <p>Roadmapping, tech choices, and delivery guidance.</p>
+              <ul class="tags"><li>Planning</li><li>Roadmap</li><li>Review</li></ul>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🤝</div>
+              <div class="skill-head"><h3>Team Enablement</h3><span class="badge">Mentor</span></div>
+              <p>Mentoring and pairing to level-up delivery and practices.</p>
+              <ul class="tags"><li>Mentor</li><li>Standards</li><li>Toolkit</li></ul>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">📈</div>
+              <div class="skill-head"><h3>SEO Foundations</h3><span class="badge">Growth</span></div>
+              <p>Technical SEO to help users and crawlers find your content.</p>
+              <ul class="tags"><li>Meta</li><li>Sitemap</li><li>Structured Data</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Durga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
