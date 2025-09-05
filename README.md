@@ -1,3 +1,4 @@
+**#home page**
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,6 +91,8 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+**#about page**
 
 <!DOCTYPE html>
 <html lang="en">
@@ -180,6 +183,7 @@
 </body>
 </html>
 
+****# home page ****
 
 <!DOCTYPE html>
 <html lang="en">
@@ -274,6 +278,7 @@
 </body>
 </html>
 
+**#java script code**
 
 // Durga Portfolio - Interactivity & Utilities
 
@@ -425,7 +430,7 @@ if (metricNumbers.length) {
 
   metricNumbers.forEach((n) => observer.observe(n));
 }
-
+**#Services page
 
 <!DOCTYPE html>
 <html lang="en">
@@ -577,7 +582,8 @@ if (metricNumbers.length) {
 </body>
 </html>
 
-
+ # Skills page
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -778,7 +784,7 @@ if (metricNumbers.length) {
 </body>
 </html>
 
-
+# css code
 /*
   Durga Portfolio - Central Stylesheet
   Theme Colors: Deep Purple #6C63FF, Teal #00BFA6, Dark Navy #2C2C54, Light BG #F8F9FA
